@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="colores">
+        <item>Rojo</item>
+        <item>Azul</item>
+        <item>Amarillo</item>
+        <item>Naranja</item>
+        <item>Verde</item>
+    </string-array>
+
+    <string-array name="cod_colores">
+        <item>Color.RED</item>
+        <item>Color.BLUE</item>
+        <item>Color.YELLOW</item>
+        <item>Color.ORANGE</item>
+        <item>Color.GREEN</item>
+    </string-array>
+
+    <string-array name="tipoRed">
+        <item>Nat</item>
+        <item>Adaptador Puente</item>
+        <item>Intranet</item>
+        <item>Wifi</item>
+        <item>3G</item>
+        <item>4G</item>
+    </string-array>
+</resources>

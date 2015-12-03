@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="RotacionPantalla"
+        android:title="Rotacion automatica"
+        android:summary="Permite la rotacion automatica de pantalla"/>
+
+    <ListPreference
+        android:key="colorFondo"
+        android:title="Color de fondo"
+        android:summary="Seleccion del color de fondo"
+        android:dialogTitle="Selecciona un color"
+        android:entries="@array/colores"
+        android:entryValues="@array/cod_colores" />
+
+    <EditTextPreference
+        android:key="email"
+        android:title="Introduce tu email"
+        android:summary="Por favor, ingrese su email:"
+        android:dialogTitle="Email"/>
+
+    <MultiSelectListPreference
+        android:key="networkOptions"
+        android:title="Opciones de red"
+        android:summary="Selecciona una opcion de red"
+        android:dialogTitle="Tipo de red"
+        android:entries="@array/tipoRed"
+        android:entryValues="@array/tipoRed" />
+
+</PreferenceScreen>
