@@ -10,10 +10,19 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.estruch18.preferencias.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_main"
+    android:id="@+id/relative"
+    android:background="#cc3232">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Bienvenido a tu gestor de preferencias!"
+        android:autoText="false"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="121dp"
+        android:textAlignment="center" />
 </RelativeLayout>

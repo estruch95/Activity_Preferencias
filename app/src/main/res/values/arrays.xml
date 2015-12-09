@@ -24,4 +24,13 @@
         <item>3G</item>
         <item>4G</item>
     </string-array>
+
+    <string-array name="tonosFondo">
+    <item>Oscuro</item>
+    <item>Claro</item>
+    <item>Metalizado</item>
+    <item>Mate</item>
+    <item>Brillante</item>
+    <item>Automatico</item>
+</string-array>
 </resources>
